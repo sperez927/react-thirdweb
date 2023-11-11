@@ -1,6 +1,6 @@
 {
-  "name": "next-typescript-starter",
-  "version": "0.1.0",
+  "name": "NextJs-tscript-starter_thirdweb",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
