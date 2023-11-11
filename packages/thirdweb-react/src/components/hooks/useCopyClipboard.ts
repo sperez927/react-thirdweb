@@ -42,6 +42,12 @@ export function useClipboard(
       }, timeout);
     }
 
+    if (!timeout) {
+      setTimeout(() => {
+        setHasCopied(false);
+      }, 1000)
+    }
+    
     return () => {
       if (timeoutId) {
         window.clearTimeout(timeoutId);
